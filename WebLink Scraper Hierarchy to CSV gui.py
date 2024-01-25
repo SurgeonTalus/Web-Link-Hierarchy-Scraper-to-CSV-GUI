@@ -89,11 +89,10 @@ def on_submit():
     # Append new links to the CSV file
     with open(csv_path, 'a', newline='') as csv_file:
         csv_writer = csv.writer(csv_file)
-        if not existing_links:  # Write header if the file is empty
-            csv_writer.writerow(['Link'])
         csv_writer.writerows([[link] for link in unique_links])
 
     status_label.config(text=f"Unique links saved to {csv_path}")
+
 
 def set_main_link_from_clipboard():
     clipboard_content = window.clipboard_get()
