@@ -38,10 +38,10 @@ pip install tkinterdnd2
 Run the script using Python:
 
 ```bash
-python script_name.py
+python WebLink Scraper Hierarchy to CSV gui.py
 ```
 
-Replace `script_name.py` with the actual name of the script file.
+
 
 ### GUI Elements
 
