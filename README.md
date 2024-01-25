@@ -4,7 +4,7 @@
 
 
 This Python script provides a graphical user interface (GUI) to scrape and save the hierarchy of links from a specified website into a CSV file. It uses the breadth-first search (BFS) algorithm to navigate through the link levels of the website.
-![alt text](image.png)
+![alt text](image1.png)
 ## Features
 
 - GUI for easy interaction
